@@ -13,6 +13,7 @@
 		17D69FF92346D78A00AB7646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D69FF72346D78A00AB7646 /* Main.storyboard */; };
 		17D69FFB2346D78E00AB7646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D69FFA2346D78E00AB7646 /* Assets.xcassets */; };
 		17D69FFE2346D78E00AB7646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D69FFC2346D78E00AB7646 /* LaunchScreen.storyboard */; };
+		17D6A0062346DE3C00AB7646 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D6A0052346DE3C00AB7646 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		17D69FFA2346D78E00AB7646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17D69FFD2346D78E00AB7646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17D69FFF2346D78E00AB7646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D6A0052346DE3C00AB7646 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				17D69FF12346D78A00AB7646 /* AppDelegate.swift */,
 				17D69FF32346D78A00AB7646 /* SceneDelegate.swift */,
 				17D69FF52346D78A00AB7646 /* ViewController.swift */,
+				17D6A0052346DE3C00AB7646 /* TestView.swift */,
 				17D69FF72346D78A00AB7646 /* Main.storyboard */,
 				17D69FFA2346D78E00AB7646 /* Assets.xcassets */,
 				17D69FFC2346D78E00AB7646 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D6A0062346DE3C00AB7646 /* TestView.swift in Sources */,
 				17D69FF62346D78A00AB7646 /* ViewController.swift in Sources */,
 				17D69FF22346D78A00AB7646 /* AppDelegate.swift in Sources */,
 				17D69FF42346D78A00AB7646 /* SceneDelegate.swift in Sources */,
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4BB235M4GL;
 				INFOPLIST_FILE = RotationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4BB235M4GL;
 				INFOPLIST_FILE = RotationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
